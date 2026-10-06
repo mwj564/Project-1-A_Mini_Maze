@@ -1,0 +1,47 @@
+@font-face {
+     font-family: vcr-mono;
+     src: url("../font/VCR_OSD_MONO_1.001.ttf") format('truetype');
+}
+* {
+     font-family:vcr-mono;
+}
+html{
+    background-image: linear-gradient(rgba(0,0,0,0.3)),
+                    url("../img/rebg.png");
+    background-attachment:fixed;
+    background-size:35% 50%;
+}
+body{
+    margin-top:5%;
+    margin-left:auto;
+    margin-right:auto;
+    width:95%;
+    align-items:center;
+    background-color:rgba(0,0,0,0.3);
+    padding:1em;
+    border-radius: 10px;
+}
+img{
+    border:solid 48px transparent;
+    border-image:url("../img/border.png") 100 round;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+p{
+    color:white;
+    text-align:left;
+    background-color:rgb(0,0,0);
+    width:50%;
+    padding:1em;
+    border-radius: 10px;
+    line-height:1.5em;
+    display:block;
+    float:center;
+}
+a{
+    color:white;
+}
+a:active{
+    color:rgb(125,125,125)
+}

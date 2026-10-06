@@ -1,0 +1,26 @@
+html,body {
+     height:100%;
+}
+body {
+     width:50%;
+     margin-left:auto;
+     margin-right:auto;
+     margin-top:0px;
+     padding:1em;
+     padding-top:0px;
+     height:auto;
+}
+div {
+     text-align: center;
+     margin-top:6%;
+}
+p {
+     text-align:left;
+     text-indent: 2em;
+     margin-bottom:10%;
+}
+ul {
+     text-align:left;
+     text-indent: 2em;
+     line-height: 1.5em;
+}

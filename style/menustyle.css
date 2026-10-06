@@ -1,0 +1,54 @@
+@font-face {
+     font-family: vcr-mono;
+     src: url("../font/VCR_OSD_MONO_1.001.ttf") format('truetype');
+}
+* {
+     font-family:vcr-mono;
+     color:#484f53
+}
+html {
+     background-image: linear-gradient(rgba(0,0,0,0.3)),
+                         url("../img/rebg.png");
+     background-attachment:fixed;
+     background-size:35% 50%;
+}
+body {
+     width:50%;
+     background-color:slategray;
+     border-radius: 10px;
+     border:solid 64px transparent;
+     border-image:url("../img/border.png") 100 round;
+     border-image-outset: 32px;
+}
+header > img{
+     width: 100%;
+     background-color:rgba(255,255,255,0.2);
+     border-radius: 10px;
+}
+article {
+     background-color:rgba(255,255,255,0.2);
+     padding: 1em;
+     border-radius: 10px;
+}
+#button {
+     margin-left:auto;
+     margin-right:auto;
+     width:fit-content;
+     display:block;
+     font-size:1.5em;
+     color:white;
+     text-decoration:none;
+     background-color: slategray;
+     padding:10px;
+     border-radius: 10px;
+     border:outset 8px rgba(255,255,255,0.2);
+     transition:100ms;
+}
+#button:hover {
+     transform: scale(1.1,1.1);
+}
+#button:active {
+     background-color: rgba(255,255,255);
+     transform: scale(0.9,0.9);
+     border:inset 8px rgb(255,255,255);
+}
