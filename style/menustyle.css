@@ -17,8 +17,8 @@ body {
      background-color:slategray;
      border-radius: 10px;
      border:solid 64px transparent;
-     border-image:url("../img/border.png") 100 round;
-     border-image-outset: 32px;
+     border-image:url("../img/newborder.png") 27 round;
+     border-image-outset: 42px;
 }
 header > img{
      width: 100%;
