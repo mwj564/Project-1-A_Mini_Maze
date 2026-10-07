@@ -21,9 +21,15 @@ body{
     padding:1em;
     border-radius: 10px;
 }
-img{
+img:not(#logo){
     border:solid 48px transparent;
     border-image:url("../img/newborder.png") 27 round;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+#logo{
+    width:20%;
     margin-left:auto;
     margin-right:auto;
     display:block;
