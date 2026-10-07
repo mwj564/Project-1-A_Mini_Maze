@@ -10,9 +10,11 @@ html {
      background-image: linear-gradient(rgba(0,0,0,0.3)),
                          url("../img/rebg.png");
      background-attachment:fixed;
-     background-size:35% 50%;
+     background-size:33.33% 50%;
 }
 body {
+     box-shadow: -100px 0px 100px 10px rgba(0,0,0,0.3),
+                 100px 0px 100px 10px rgba(0,0,0,0.3);
      background-color:slategray;
      border-radius: 10px;
      border:solid 64px transparent;
