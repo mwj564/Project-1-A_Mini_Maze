@@ -17,6 +17,12 @@ header > #img{
      border: solid 36px transparent;
      border-image: url("../img/cloudborder.png") 96 round;
 }
+header > #logo{
+     display: block;
+     margin-left:auto;
+     margin-right:auto;
+     width: 50%;
+}
 
 html {
      background-image: linear-gradient(rgba(255,255,255,0.4)),
@@ -25,7 +31,6 @@ html {
      background-size:cover;
 }
 body {
-     width:50%;
      background-color:rgb(241,244,247);
      border-radius: 10px;
      border:solid 64px transparent;
